@@ -1,0 +1,27 @@
+POWERUPS:
+	-armor around the player
+	-heal the player
+	-random color for circle = more damage to the specific enemy
+	-imunity
+	-360 death ray
+
+ENEMIES:
+	-strafing enemy
+	-splitting enemy on death
+	-random enemy speed
+	-invisible enemy
+	-redirecting damage enemy
+	-exploding enemies
+	-changing color
+	-reward enemy (more money / health / armor)
+	-changing dimension
+	
+QUESTS:
+	-kill X amount of Y type enemy
+	-survive for X levels
+	-get X score
+	-use X power up Y times
+
+FEATURES:
+	-level select
+	
