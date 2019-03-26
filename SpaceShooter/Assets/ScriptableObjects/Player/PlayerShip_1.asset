@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbee39392cd03da4987b7f7090da7145, type: 3}
+  m_Name: PlayerShip_1
+  m_EditorClassIdentifier: 
+  health: 100
+  damage: 10
+  armor: 50
+  speed: 0.5
+  shotFX: {fileID: 1129578642313160, guid: 9045aa410550c6340b93b8e9e95fc1e5, type: 2}

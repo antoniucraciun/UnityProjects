@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfcc399ce9c81e741b05a7338a609a33, type: 3}
+  m_Name: RareChest
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: 7c8f5dc1cc9a2ef42b18602e1f1b9aa8, type: 2}
+  - {fileID: 11400000, guid: c139926efbd6a6a40af01f0b282a3f43, type: 2}
+  - {fileID: 11400000, guid: a98a8f3445fbd474e92feb00590b1dec, type: 2}
+  - {fileID: 11400000, guid: 506b80b4e0007ea4c87299ff4d9ad07b, type: 2}
+  - {fileID: 11400000, guid: b9359efd580ed5f4cb4cd55c6abf55a7, type: 2}
+  - {fileID: 11400000, guid: 9875babac53e80947837e678e316811b, type: 2}
+  - {fileID: 11400000, guid: 445c794e80f1c8f4a84f3d62cd8fd07f, type: 2}
+  price: 75
+  type: 2

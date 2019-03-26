@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720f67f4efb6cab40b836780f594fa1f, type: 3}
+  m_Name: MySave
+  m_EditorClassIdentifier: 
+  uncommonChestAmount: 0
+  commonChestAmount: 0
+  rareChestAmount: 0
+  legendaryChestAmount: 0
+  shipLevel1: 1
+  shipLevel2: 1
+  shipLevel3: 1
+  shipLevel4: 1
+  shipLevel5: 1
+  shipLevel6: 1
+  shipLevel7: 1
+  shipHealth_1: 100
+  shipHealth_2: 100
+  shipHealth_3: 150
+  shipHealth_4: 150
+  shipHealth_5: 200
+  shipHealth_6: 200
+  shipHealth_7: 250
+  shipDamage_1: 10
+  shipDamage_2: 15
+  shipDamage_3: 15
+  shipDamage_4: 20
+  shipDamage_5: 20
+  shipDamage_6: 25
+  shipDamage_7: 25
+  shipArmor_1: 50
+  shipArmor_2: 75
+  shipArmor_3: 100
+  shipArmor_4: 125
+  shipArmor_5: 150
+  shipArmor_6: 175
+  shipArmor_7: 200
+  isLocked_1: 0
+  isLocked_2: 1
+  isLocked_3: 1
+  isLocked_4: 1
+  isLocked_5: 1
+  isLocked_6: 1
+  isLocked_7: 1
+  shipSpeed: 0.5
+  coins: 400
+  gems: 0
+  stars: 0
+  score: 0
+  totalEnemiesKilled: 0
+  astraEnemiesKilled: 0
+  totalUpgrades: 3
+  upgradesShip1: 3
+  upgradesShip2: 0
+  upgradesShip3: 0
+  upgradesShip4: 0
+  upgradesShip5: 0
+  upgradesShip6: 0
+  upgradesShip7: 0
+  totalBossesKilled: 0
+  astraBossKills: 0
+  gemsCollected: 0
+  coinsCollected: 0
+  starsCollected: 0
+  powerUps: 0
+  totalMissionsPlayed: 2
