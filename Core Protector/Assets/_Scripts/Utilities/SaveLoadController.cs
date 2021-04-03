@@ -1,16 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class SaveLoadController : MonoBehaviour
 {
-    private void Awake()
-    {
-        Data.Load();
-    }
+    public PlayerData player;
+    public Inventory inv;
 
-    private void OnDestroy()
-    {
-        Data.Save();
-    }
+    private void Awake() => SaveLoad.LoadPlayerData();
+
+    private void OnDestroy() => SaveLoad.SavePlayer(player);
 }

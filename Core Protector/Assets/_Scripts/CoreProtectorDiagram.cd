@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Enemy Scripts">
+    <Position X="0.5" Y="3.183" Height="0.291" Width="10.25" />
+  </Comment>
+  <Comment CommentText="Achievement System">
+    <Position X="0.508" Y="0.5" Height="0.291" Width="10.338" />
+  </Comment>
+  <Comment CommentText="Managers">
+    <Position X="0.5" Y="6.117" Height="0.341" Width="10.546" />
+  </Comment>
+  <Comment CommentText="Player">
+    <Position X="0.5" Y="9.208" Height="0.291" Width="10.492" />
+  </Comment>
+  <Comment CommentText="Shop">
+    <Position X="0.5" Y="11.242" Height="0.291" Width="10.517" />
+  </Comment>
+  <Comment CommentText="Utilities">
+    <Position X="0.5" Y="13.908" Height="0.291" Width="10.55" />
+  </Comment>
+  <Comment CommentText="Save System">
+    <Position X="0.5" Y="15.592" Height="0.291" Width="10.525" />
+  </Comment>
+  <Class Name="AchievementVariable" Collapsed="true">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABCAAAAFAAAQAAABIAAAAAAACAQABAAAAAQGAACAA=</HashCode>
+      <FileName>Assets\_Scripts\AchievementSystem\AchievementVariable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Achievement" Collapsed="true">
+    <Position X="2.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAABECAAAAAAAAAAAAAAAAAAABBABAgAAAAACUI=</HashCode>
+      <FileName>Assets\_Scripts\AchievementSystem\Achievement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AchievementSystem" Collapsed="true">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAABAAABAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\AchievementSystem\AchievementSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyController" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBAAAAACgAAAAAAAAIAAAABAACAAAAAAgAgAAAAgA=</HashCode>
+      <FileName>Assets\_Scripts\Enemies\EnemyController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyHealth" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIACAAAAIAAAAAAAAAAEAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\Enemies\EnemyHealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnemyTrigger" Collapsed="true">
+    <Position X="2.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\Enemies\EnemyTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mover" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\Enemies\Mover.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rotator" Collapsed="true">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\Enemies\Rotator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SceneManagerUtility" Collapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\_Scripts\Level\SceneManagerUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EndlessUIManager" Collapsed="true">
+    <Position X="2.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\Managers\EndlessUIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu" Collapsed="true">
+    <Position X="4" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\Managers\MainMenu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerUIManager" Collapsed="true">
+    <Position X="5.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\Managers\PlayerUIManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RewardManager" Collapsed="true">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAIAgAAAAAAAIAAAAAAAAAAAAAAAgAAAAACA=</HashCode>
+      <FileName>Assets\_Scripts\Managers\RewardManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoundManager" Collapsed="true">
+    <Position X="9.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCBAAAABAAAAQBAAAAAQAAAgYAAAECAACQA=</HashCode>
+      <FileName>Assets\_Scripts\Managers\SoundManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerData" Collapsed="true">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQTQAhQgAAAACEaAgAAAAEBAAA4AABoACAISFE=</HashCode>
+      <FileName>Assets\_Scripts\Player\PlayerData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Booster" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAACAAQAAAgAAAAAAAAAAAQMAAAAAAAAQQCAA=</HashCode>
+      <FileName>Assets\_Scripts\Shop\Booster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Currency" Collapsed="true">
+    <Position X="2.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAIAAAACAAACAQAAEAAAAAAQAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\Shop\Currency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shard" Collapsed="true">
+    <Position X="4.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACgAAAAAAAEAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\Shop\Shard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColliderShape" Collapsed="true">
+    <Position X="0.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAACACCAAAAAAAAAAAAAAABAAAEAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\_Scripts\Utilities\ColliderShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hints" Collapsed="true">
+    <Position X="2.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEA=</HashCode>
+      <FileName>Assets\_Scripts\Utilities\Hints.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LevelButton" Collapsed="true">
+    <Position X="4" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAICAAAAAAAAAACAAAAABACAA=</HashCode>
+      <FileName>Assets\_Scripts\Utilities\LevelButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Options" Collapsed="true">
+    <Position X="5.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAwAGABAABgwAACAAAAAiAAAAABAAAQUAAAAAI=</HashCode>
+      <FileName>Assets\_Scripts\Utilities\Options.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shape" Collapsed="true">
+    <Position X="7.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JAWAAACACCAAAAAAAAAAAAAAAAAAAEAAAAAgAACAAAA=</HashCode>
+      <FileName>Assets\_Scripts\Utilities\Shape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data" Collapsed="true">
+    <Position X="0.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAABAAAAAAQhAAAAAEAAAAAAABgAAAIAAA=</HashCode>
+      <FileName>Assets\_Scripts\Utilities\Data.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveLoad" Collapsed="true">
+    <Position X="2.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgACAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\_Scripts\Utilities\SaveLoad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveLoadController" Collapsed="true">
+    <Position X="4.5" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\_Scripts\Utilities\SaveLoadController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="RewardType" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\AchievementSystem\AchievementVariable.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AchievementType" Collapsed="true">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAQAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\AchievementSystem\Achievement.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SceneType" Collapsed="true">
+    <Position X="0.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAABAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\Level\SceneManagerUtility.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BoosterType" Collapsed="true">
+    <Position X="0.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Assets\_Scripts\Shop\Booster.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CurrencyType" Collapsed="true">
+    <Position X="2.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\Shop\Currency.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShardType" Collapsed="true">
+    <Position X="4.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAIAAIAEAAAAAAAAAA=</HashCode>
+      <FileName>Assets\_Scripts\Shop\Shard.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

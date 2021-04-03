@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System;
 
 [RequireComponent(typeof(LineRenderer))]
 public class Shape : MonoBehaviour
@@ -10,10 +9,13 @@ public class Shape : MonoBehaviour
     public LineRenderer line;
 
     public float radius = 2.5f;
-    public Vector3[] circlePoints;
-    public Vector3 offset;
+    private Vector3[] circlePoints;
+    private Vector3 offset;
     
     public bool useOffset = true;
+
+	public event Action OnVariablesChanged;
+
     private void Start()
     {
         line = GetComponent<LineRenderer>();
@@ -29,7 +31,7 @@ public class Shape : MonoBehaviour
         {
             float x = Mathf.Cos(i / (float)points * 2 * Mathf.PI);
             float y = Mathf.Sin(i / (float)points * 2 * Mathf.PI);
-            circlePoints[i] = new Vector3(x, y, 0) * radius;
+            circlePoints[i] = new Vector3(x, y, 0) * radius + offset;
         }
         circlePoints[circlePoints.Length - 2] = circlePoints[0];
         circlePoints[circlePoints.Length - 1] = circlePoints[1];
@@ -45,13 +47,5 @@ public class Shape : MonoBehaviour
     public void SetNumberOfPoints(int nrPoints)
     {
         this.points = nrPoints;
-    }
-
-    public void ReduceNumberOfPoints()
-    {
-        if (points >= 12)
-        {
-            points = points / 2;
-        }
     }
 }

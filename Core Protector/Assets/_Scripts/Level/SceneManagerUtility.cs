@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SceneManagerUtility : MonoBehaviour
 {
@@ -20,6 +21,19 @@ public class SceneManagerUtility : MonoBehaviour
                 break;
         }
     }
+
+    //TODO: Remove function after testing
+    //START
+    public void GoBack()
+    {
+        SceneManager.LoadSceneAsync(0);
+    }
+
+    public void LoadTestScene()
+    {
+        SceneManager.LoadSceneAsync(1);
+    }
+    //END
 }
 
 public enum SceneType

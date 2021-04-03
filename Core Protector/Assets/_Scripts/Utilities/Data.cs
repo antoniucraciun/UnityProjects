@@ -1,9 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using System.Collections.Generic;
 
 [System.Serializable]
-public static class Data
+public class Data
 {
     #region PlayerData
     public static int level = 1;
@@ -14,37 +12,34 @@ public static class Data
     public static int levelsUnlocked = 1;
     #endregion
 
-
-
-    public static void Save()
+    public Data()
     {
-        SaveLoad.dataToSave.Clear();
-        SaveLoad.dataToSave.Add(level);
-        SaveLoad.dataToSave.Add(experience);
-        SaveLoad.dataToSave.Add(experienceRequired);
-        SaveLoad.dataToSave.Add(normalCurrency);
-        SaveLoad.dataToSave.Add(specialCurrency);
-        SaveLoad.dataToSave.Add(levelsUnlocked);
-        SaveLoad.Save();
+        level = 1;
+        experience = 0;
+        experienceRequired = 1000;
+        normalCurrency = 0;
+        specialCurrency = 0;
+        levelsUnlocked = 1;
     }
 
-    public static void Load()
+    public Data(PlayerData data)
     {
-        SaveLoad.Load();
-        level = SaveLoad.dataToSave[0];
-        experience = SaveLoad.dataToSave[1];
-        experienceRequired = SaveLoad.dataToSave[2];
-        normalCurrency = SaveLoad.dataToSave[3];
-        specialCurrency = SaveLoad.dataToSave[4];
-        levelsUnlocked = SaveLoad.dataToSave[5];
+        //CoreData
+        level = data.level;
+        experience = data.experience;
+        experienceRequired = data.experienceRequired;
+        normalCurrency = data.normalCurrency;
+        specialCurrency = data.specialCurrency;
+        levelsUnlocked = data.levelsUnlocked;
     }
 
     public static void Reset()
     {
         level = 1;
         experience = 0;
-        experienceRequired = 100;
+        experienceRequired = 1000;
         normalCurrency = 0;
         specialCurrency = 0;
+        levelsUnlocked = 1;
     }
 }

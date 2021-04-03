@@ -1,17 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using System;
 
 [RequireComponent(typeof(EdgeCollider2D))]
 public class ColliderShape : MonoBehaviour
 {
     [Range(3, 64)]
-    public int points = 3;
+    private int points = 3;
     public EdgeCollider2D coll;
 
-    public float radius = 2.5f;
-    public Vector2[] circlePoints;
-    
+    private float radius = 2.5f;
+    private Vector2[] circlePoints;
+
+	public event Action OnVariablesChanged;
+
     private void Start()
     {
         coll = GetComponent<EdgeCollider2D>();
@@ -33,11 +34,13 @@ public class ColliderShape : MonoBehaviour
 
     public void SetRadius(float rad)
     {
-        this.radius = rad;
+        radius = rad;
     }
 
     public void SetNumberOfPoints(int nrPoints)
     {
-        this.points = nrPoints;
+        points = nrPoints;
     }
+
+	
 }

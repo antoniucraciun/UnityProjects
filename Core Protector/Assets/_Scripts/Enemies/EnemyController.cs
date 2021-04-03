@@ -3,41 +3,44 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(EnemyHealth))]
-[RequireComponent(typeof(EnemyTrigger))]
+[RequireComponent(typeof(Shape))]
+[RequireComponent(typeof(ColliderShape))]
+
 public class EnemyController : MonoBehaviour
 {
-    public EnemyHealth eh;
-    public EnemyTrigger et;
+	[Range(3, 64)]
+	private int lastPointCount;
+	[Range(3, 64)]
+	public int points;
 
-    public GameObject deathParticle;
-    public int score = 1;
-    public int reward = 1;
-    public int chance = 5;
-    bool killed = false;
+	public float radius = 2.5f;
+	private float lastRadius;
 
-    private void Start()
-    {
-        eh = GetComponent<EnemyHealth>();
-        et = GetComponent<EnemyTrigger>();
-    }
+	public EnemyHealth enemyHealth;
+	public Shape shape;
+	public ColliderShape colliderShape;
 
-    public virtual void TakeDamage(int value)
-    {
-        eh.DecreaseHealth(value);
-        if (!eh.IsAlive() && !killed)
-        {
-            killed = true;
-            KillEnemy();
-        }
-    }
+	private void Start()
+	{
+		lastPointCount = points;
+		lastRadius = radius;
+		enemyHealth = GetComponent<EnemyHealth>();
+		shape = GetComponent<Shape>();
+		colliderShape = GetComponent<ColliderShape>();
+		colliderShape.OnVariablesChanged += ChangeColliderOptions;
+	}
 
-    public virtual void KillEnemy()
-    {
-        Instantiate(deathParticle, transform.position, Quaternion.identity);
-        RewardManager.IncreaseScore(score);
-        RewardManager.GetCurrency(chance, reward);
-        //increase achievement variable
-        Destroy(gameObject);
-    }
-    
+	private void Update()
+	{
+		if (points != lastPointCount || radius != lastRadius)
+		{
+
+		}
+	}
+
+	private void ChangeColliderOptions()
+	{
+		colliderShape.SetNumberOfPoints(points);
+		colliderShape.SetRadius(radius);
+	}
 }

@@ -75,9 +75,3 @@ public class Achievement : MonoBehaviour
     }
 }
 
-public enum AchievementType
-{
-    EnemiesKilled,
-    ScoreGained,
-    Upgrades
-}

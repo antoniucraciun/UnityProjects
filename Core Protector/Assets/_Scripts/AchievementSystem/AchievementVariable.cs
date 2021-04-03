@@ -66,9 +66,3 @@ public class AchievementVariable : ScriptableObject
         PlayerPrefs.Save();
     }
 }
-
-public enum RewardType
-{
-    RegularCurrency,
-    PremiumCurrency
-}

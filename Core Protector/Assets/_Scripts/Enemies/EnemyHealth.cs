@@ -7,6 +7,8 @@ public class EnemyHealth : MonoBehaviour
     public int currentHealth = 1;
     public int maxHealth = 1;
 
+	public Dictionary<EnemyType, int> resistances;
+
     private void Start()
     {
         currentHealth = maxHealth;
