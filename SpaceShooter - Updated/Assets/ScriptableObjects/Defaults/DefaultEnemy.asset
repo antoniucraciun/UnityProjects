@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f577bb6ece0e0a40a96c3f7ed471d6b, type: 3}
+  m_Name: DefaultEnemy
+  m_EditorClassIdentifier: 
+  enemyName: Default enemy
+  enemyDescription: Default enemy description
+  sprite: {fileID: 21300000, guid: 0bce66a96557b3847a82454dafa7f396, type: 3}
+  health: 20
+  speed: 5
+  bulletsPerSecond: 1
+  distanceToObject: 1.5
+  initialTimeToFollow: 3
+  initialTimeToDodge: 1
+  checkRange: 1.25
+  enemySizeSphere: 0.5
